@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: monospace;
     font-size: 1.25rem;
     background: #FAFAFA;
@@ -41,8 +44,6 @@ body {
 
 .navbar-link ul {
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar-link li {
@@ -59,7 +60,7 @@ body {
 }
 
 .navbar-link li a:hover {
-    color: crimson;
+    color: #DC143C;
 }
 
 .toggle-button {
